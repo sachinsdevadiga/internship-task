@@ -1,0 +1,156 @@
+
+
+* {
+	box-sizing: border-box;
+
+}
+h1 {
+color: white;
+text-align: center;
+background-image:linear-gradient(navy,teal);
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+body {
+   background-color: skyblue;
+
+
+}
+
+.container {
+border-radius: 5px;
+background:linear-gradient(rgb(175, 173, 173),#E0DEDE);
+padding: 30px;
+width: 60%;
+margin-left: 250px;
+
+}
+
+.form {
+	padding: -30px -4px;
+	margin-top: -20px;
+}
+
+.form-control {
+	box-sizing: border-box;
+
+
+	margin-bottom: -1px;
+	padding-bottom: 20px;
+	position: relative;
+
+}
+
+
+
+.form-control label {
+
+	padding: 5px;
+	display:inline;
+
+
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 1px;
+	width: 70%;
+	margin-left: 150px;
+
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position:absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+	margin-left: 150px;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+
+
+input[type=submit] {
+background-color: #04aa6d;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+text-align: center;
+ float: left;
+ width: 13%;
+ margin-left: -5px;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+input[type=text] , textarea{
+width: 70%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+}
+
+input[type=password] , textarea{
+width: 70%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+
+}
+
+input[type=email] , textarea{
+width: 70%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+
+}
